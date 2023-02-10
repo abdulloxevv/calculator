@@ -108,3 +108,31 @@ body {
     aspect-ratio: 2 / 1;
     border-radius: 50px;
 }
+
+.footer {
+    background-color: #231F20;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer small {
+    padding-top: 50px;
+    color: aliceblue;
+}
